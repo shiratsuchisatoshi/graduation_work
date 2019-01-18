@@ -40,7 +40,7 @@ function trump(){
                 if (answer[0]==answer[1]){
                     setTimeout(function(){
                         alert("あたり");
-                    }, 2000);
+                    }, 1000);
 
                     // 変数と配列を初期値へ
                     cardjudge=[];
@@ -56,7 +56,7 @@ function trump(){
                     $("#"+cardjudge[0]).children('img').attr('src','img/card_back.png');
                     $("#"+cardjudge[1]).children('img').attr('src','img/card_back.png');
                     cardjudge=[];// 変数と配列を初期値へ
-                    }, 2000);
+                    }, 1000);
 
                     // 変数と配列を初期値へ
                     answer=[];
